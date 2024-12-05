@@ -1,0 +1,147 @@
+/*Header, footer*/
+
+/* Hero */
+
+.hero img {
+    height: 528px;
+    width: 1280px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.hero__row {
+    align-items: center;
+}
+
+
+/* Info */
+
+.info {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.info__box-4 img {
+    max-width: 760px;
+    width: 570px;
+    height: 760px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.info p {
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 640px;
+    font-size: 26px;
+}
+
+@media all and (max-width: 1460px) {
+    
+    .hero img {
+        align-items: center;
+        height: auto;
+        width: 1250px;
+        object-fit: cover;
+        border-radius: 40px;
+        gap: 40px;
+    }
+    .info p {
+        display: block;
+        gap: 20px;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: auto;
+        font-size: 26px;
+    }
+}
+
+@media all and (max-width: 1270px) {
+
+    .info__box-4 img {
+        display: none;
+    }
+}
+
+@media all and (max-width: 980px) {
+
+    .hero img {
+        align-items: center;
+        height: auto;
+        width: 950px;
+        object-fit: cover;
+        border-radius: 40px;
+
+    }
+
+    .info p {
+        display: block;
+        gap: 20px;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: auto;
+        font-size: 22px;
+    }
+}
+
+@media all and (max-width: 970px) {
+
+    .hero img {
+        align-items: center;
+        height: 300px;
+        width: 850px;
+        object-fit: cover;
+        border-radius: 40px;
+        margin-left: 40px;
+    }
+}
+
+@media all and (max-width: 870px) {
+
+    .hero img {
+        height: 300px;
+        width: 800px;
+        margin-left: 10px;
+    }
+}
+
+@media all and (max-width: 550px) {
+
+    .hero img {
+        height: 290px;
+        width: 500px;
+        margin-left: 10px;
+    }
+
+    .info p {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 520px) {
+
+    .hero img {
+        height: 250px;
+        width: 400px;
+        align-items: center;
+    }
+}
+
+@media all and (max-width: 870px) {
+
+    .hero img {
+        height: 20
+        0px;
+        width: 350px;
+        margin-left: 10px;
+    }
+}

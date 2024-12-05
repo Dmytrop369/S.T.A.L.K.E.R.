@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: #83756D;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/*Header, footer*/
+
+header {
+    width: auto;
+    background: #99fbc0;
+    border-radius: 0 0 20px 20px;
+}
+
+footer {
+    background: #99fbc0;
+    border-radius: 10px 10px 0 0;
+}
+
+header .row,
+footer .row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a,
+footer a {
+    text-decoration: none;
+    color: #1F2D21;
+    font-size: 25px;
+    margin: 20px;
+    font-weight: 400;
+}
+
+.header__wrapper {
+    justify-content: space-between;
+}
+
+.header__navigation nav a .active {
+    color: #1d52b9;
+}
+
+@media all and (max-width: 585px) {
+
+    header a,
+    footer a {
+        font-size: 25px;
+        margin: 10px;
+        font-weight: 400;
+    }
+}
+
+@media all and (max-width: 525px) {
+
+    header .row,
+    footer .row {
+        display: block;
+        text-align: center;
+    }
+
+    header a,
+    footer a {
+        text-align: center;
+        font-size: 25px;
+        margin: 10px;
+        font-weight: 400;
+    }
+}
+
+/* Hero */
+
+
+
+/* Info */
